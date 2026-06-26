@@ -18,5 +18,6 @@ Visual Studio Code: Sebagai text editor untuk menulis kode.
 Nama Anggota Tim
 [Nama Lengkap Kamu] - Developer & Designer
 (Tambahkan nama temanmu di sini jika ini project kelompok)
+
 Link Deployment
-Anda dapat mengakses website ini melalui tautan berikut: 👉 https://schoolsync-tugas.vercel.app/ (Ganti link di atas dengan link asli dari Vercel setelah kamu selesai deploy)
+Anda dapat mengakses website ini melalui tautan berikut: 👉 https://school-sync-murex.vercel.app (Ganti link di atas dengan link asli dari Vercel setelah kamu selesai deploy)
