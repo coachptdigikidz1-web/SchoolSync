@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SchoolSync - Hubungkan Guru & Murid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <nav class="navbar">
+        <div class="logo">School<span>Sync</span></div>
+        <ul class="nav-links">
+            <li><a href="#">Beranda</a></li>
+            <li><a href="#features">Fitur</a></li>
+            <li><a href="#info">Tentang</a></li>
+            <li><a href="#contact">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Belajar Lebih Mudah & Terorganisir</h1>
+            <p>Platform kolaborasi terbaik untuk guru dan murid di era digital.</p>
+            <a href="#contact" class="btn-main">Mulai Sekarang</a>
+        </div>
+    </header>
+
+    <!-- Feature Cards Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Fitur Unggulan</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>Tugas Digital</h3>
+                    <p>Kirim dan nilai tugas dengan sekali klik tanpa kertas.</p>
+                </div>
+                <div class="card">
+                    <h3>Jadwal Real-time</h3>
+                    <p>Update jadwal pelajaran yang langsung sinkron ke HP murid.</p>
+                </div>
+                <div class="card">
+                    <h3>Diskusi Grup</h3>
+                    <p>Ruang tanya jawab interaktif antara guru dan teman sekelas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Information Section -->
+    <section id="info" class="info-section">
+        <div class="container info-flex">
+            <div class="info-text">
+                <h2>Kenapa Memilih SchoolSync?</h2>
+                <p>Kami memahami bahwa komunikasi adalah kunci keberhasilan belajar. SchoolSync hadir untuk menghilangkan hambatan jarak dan waktu antara guru dan murid.</p>
+            </div>
+            <div class="info-image">
+                <!-- Placeholder image sederhana -->
+                <div class="box-placeholder">Ilustrasi Belajar</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Form Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Hubungi Kami</h2>
+            <form id="syncForm">
+                <input type="text" id="name" placeholder="Nama Lengkap" required>
+                <input type="email" id="email" placeholder="Email Aktif" required>
+                <textarea id="message" placeholder="Pesan Anda" required></textarea>
+                <button type="submit" class="btn-submit">Kirim Pesan</button>
+            </form>
+            <div id="formResponse"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 SchoolSync. Dibuat dengan semangat belajar.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
